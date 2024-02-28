@@ -1,0 +1,66 @@
+/* #mi{
+    background-color:blue;
+    width: 300px;
+    display: inline-block;
+}
+#csk{
+    display: inline;
+    width: 300px;
+    background-color: yellow;
+}
+#rcb{
+    display: block;
+    width: 300px;
+    background-color:red;
+}
+body{
+    display: flex;
+} */
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    padding: 20px;
+    margin-top: 20px;
+}
+#left{
+    display: flex;
+    gap: 30px;
+}
+#right{
+    display: flex;
+    gap: 30px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    padding: 20px;
+    margin-top: 20px;
+}
+#cent{
+    display: flex;
+    gap: 40px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
